@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Poppins:wght@100;200;300;400;600&display=swap');
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      margin-top: 250px;
+ 
+    
+  }
+
 .container{
     display: flex;
     flex-direction: row;
@@ -6,16 +18,14 @@
     color: white;
     width: 1050px;
     height: 400px;
-    margin: 250px;
+    /* margin: 250px; */
     border-radius : 10px ;
-    
-    
-
 }
+
 .sedans{
     background-color: hsl(31, 77%, 52%);
-    /* justify-content: center; */
-    /* text-align: center; */
+    justify-content: center;
+    
     width:240px ;
     border-radius: 7px 0px 0px 7px;
     padding: 30px;
