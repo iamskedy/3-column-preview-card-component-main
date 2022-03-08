@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Poppins:wght@100;200;300;400;600&display=swap');
 
 body{
-    background-color: hsl(212, 45%, 89%);
+    background-color:hsl(0, 0%, 95%);
     
       display: flex;
       justify-content:center;
@@ -15,7 +15,7 @@ body{
     display: flex;
     flex-direction: row;
     font-family: 'Lexend Deca', sans-serif;
-    color: white;
+    color: hsl(0, 0%, 95%);
     width: 1050px;
     height: 400px;
     /* margin: 250px; */
@@ -59,13 +59,14 @@ p{
     font-size: 15px;
     padding: 15px;
     color:hsl(31, 77%, 52%);
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     margin-top: 80px;
     border-style: solid;
     border-width: 3px;
-    border-color: white;
+    border-color:hsl(0, 0%, 95%);
     border-radius: 50px;
     width: 100px;
+    padding-left: 20px;
 
 }
 .button2{
@@ -73,13 +74,14 @@ p{
     font-size: 15px;
     padding: 15px;
     color: hsl(184, 100%, 22%);
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     margin-top: 80px;
     border-style: solid;
     border-width: 3px;
-    border-color: white;
+    border-color:hsl(0, 0%, 95%);
     border-radius: 50px;
     width: 100px;
+    padding-left: 20px;
 
 }
 .button3{
@@ -87,32 +89,33 @@ p{
     font-size: 15px;
     padding: 15px;
     color: hsl(179, 100%, 13%);
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     margin-top: 80px;
     border-style: solid;
     border-width: 3px;
-    border-color: white;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 50px;
     width: 100px;
+    padding-left: 20px;
 
 }
 a{
-    color: white;
+    color: hsl(0, 0%, 95%);
 }
 .button1:hover {
-    color:white;
+    color:hsl(0, 0%, 95%);
     background-color:hsl(31, 77%, 52%);
     text-decoration:none; 
     cursor:pointer;  
 }
 .button2:hover {
-    color:white;
+    color:hsl(0, 0%, 95%);
     background-color:hsl(184, 100%, 22%);
     text-decoration:none; 
     cursor:pointer;  
 }
 .button3:hover {
-    color:white;
+    color:hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
     text-decoration:none; 
     cursor:pointer;  
